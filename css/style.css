@@ -1,0 +1,79 @@
+body {
+    background-image: url("../img/vault111.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#container {
+    margin: 0px auto;
+    background-color: #3a3a3a;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+#greenLight {
+    height: 30px;
+    width: 50%;
+    margin: 0px;
+    background-color: green;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+
+#redLight {
+    height: 30px;
+    width: 50%;
+    margin: 0px;
+    background-color: red;
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+
+#number-container {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#buttonContainer {
+    margin: 0px auto;
+    position: absolute;
+    left: 45px;
+    top: 210px;
+
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#g-w{
+    position: absolute;
+    top: 10px;
+    left: 1300px;
+    background-color: #3a3a3a;
+    width: 180px;
+    height: 90px;
+    padding: 5px;
+}
+
+.text {
+    font-size: 30px;
+    color: #FFFFFF;
+    display: inline;
+}
+
+#gTimes {
+    display: inline;
+}
+
+#wTimes {
+    display: inline;
+}
